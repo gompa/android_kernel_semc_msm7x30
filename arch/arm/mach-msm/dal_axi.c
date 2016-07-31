@@ -145,14 +145,14 @@ fail_dal_attach_detach:
 	return rc;
 }
 
-int axi_free(mode)
+int axi_free(int mode)
 {
-	return __axi_free(mode);
+	return __axi_free(int mode);
 }
 
 int axi_allocate(mode)
 {
-	return __axi_allocate(mode);
+	return __axi_allocate(int mode);
 }
 
 int set_grp2d_async(void)
