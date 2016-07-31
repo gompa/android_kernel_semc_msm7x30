@@ -150,7 +150,7 @@ int axi_free(int mode)
 	return __axi_free(int mode);
 }
 
-int axi_allocate(mode)
+int axi_allocate(int mode)
 {
 	return __axi_allocate(int mode);
 }
